@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript Array Sorting Methods </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./javascript-logo-big.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>JavaScript Array Sorting Methods</h1>
+    </nav>
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Search by name or email...">
+        <button onclick="Search()">Search</button>
+    </div>
+    <div class="buttons">
+        <button onclick="sortByNameAsc()">Sort A->Z</button>
+        <button onclick="sortByNameDesc()">Sort Z->A</button>
+        <button onclick="sortByMarks()">Sort by marks</button>
+        <button onclick="sortByPassing()">Sort by passing</button>
+        <button onclick="sortByClass()">Sort by class</button>
+        <button onclick="sortByGender()">Sort by gender</button>
+    </div>
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Class</th>
+                <th>Marks</th>
+                <th>Email</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Avi Vashishta</td>
+                <td>Male</td>
+                <td>12</td>
+                <td>99</td>
+                <td>Class 12</td>
+                <td>avi@gmail.com</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
